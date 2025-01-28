@@ -13,7 +13,7 @@ export default async function Page() {
     numberOfCustomers,
     totalPaidInvoices,
     totalPendingInvoices,
-    } = await fetchCardData(); // wait for fetchLatestInvoices() to finish
+    } = await fetchCardData();
     
   return (
     <main>
